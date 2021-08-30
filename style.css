@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Fraunces', serif;
+}
+#Top-section{
+    background: url(./images/desktop/image-header.jpg) no-repeat;
+    height: 1000px;
+    background-size: 100% 100% ;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+#top-logo{
+    margin: 30px 40px;
+}
+.nav-icon{
+    display: none;
+}
+#navbar-top{
+    list-style: none;
+    float: right;
+    margin: 40px 55px;
+}
+
+#navbar-top li{
+    display: inline;
+    margin: 30px 20px ;
+    color: white;
+}
+
+#navbar-top a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactbtn{
+        color: black !important;
+        background: white;
+        padding: 15px 20px;
+        border-radius: 50px;
+        font-family: 'Fraunces', serif;
+        text-transform: uppercase;
+        font-size: 0.8em;
+
+}
+#top-heading{
+    text-align: center;
+    color: white;
+    font-size: 4.5em;
+    letter-spacing: 15px;
+    margin-top: 90px;
+}
+
+#top-arrow{
+    width: 30px;
+    align-self: center;
+    margin-top: 80px;
+    /* height: 75px; */
+}
+
+
+#sec-section, #third-section{
+    display: flex;
+    height: 600px;
+}
+
+
+#text-part1, #third-para{
+    width: 50%;
+    background-color: white;
+    text-align: left;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#text-part1 h3, #third-para h3{
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    margin-left: 100px;
+    width: 62%;
+    margin-top: -35px;
+}
+
+#text-part1 p, #third-para p{
+    margin-left: 100px;
+    font-size: 1.1em;
+    font-family: 'Barlow', sans-serif;
+    word-spacing: 5px;
+    color: hsl(198, 62%, 26%);
+    margin-bottom: 50px;
+    width: 58%;
+
+}
+
+#text-part1 a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    border-radius: 10px;
+    height: 7px;
+    width: 100px;
+    box-shadow: 0 14px 7px 0  hsl(51, 100%, 49%);
+}
+#sec-img{
+    background: url(./images/desktop/image-transform.jpg) no-repeat;
+    width: 50%;
+    zoom: 116%;
+    background-size: 100% 100%;
+}
+
+
+
+#third-img{
+    background: url(./images/desktop/image-stand-out.jpg) no-repeat;
+    width: 50%;
+    zoom: 116%;
+    background-size: 100% 100%;
+
+}
+
+
+
+#third-para a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    border-radius: 10px;
+    height: 7px;
+    width: 100px;
+    box-shadow: 0 14px 7px 0   hsl(7, 99%, 70%);
+}
+
+#forth-section{
+    display: flex;
+    height: 600px;
+}
+
+#forth-part1{
+    background: url(./images/desktop/image-graphic-design.jpg) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    color:  hsl(167, 40%, 24%);
+}
+
+#forth-part1 p, #forth-part2 p{
+    margin-bottom: 70px;
+    width: 50%;
+}
+#forth-part2{
+    background: url(./images/desktop/image-photography.jpg) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color:  hsl(198, 62%, 26%);
+}
+
+#fifth-section{
+    display: flex;
+    flex-flow: column;    
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tittle5{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: hsl(210, 4%, 67%) ;
+    font-weight: 900; 
+    margin-bottom: 100px;
+}
+
+#client-info{
+    display: flex;
+    justify-content: center;
+}
+
+#first-client, #secoend-client, #third-client{
+    text-align: center;
+    width: 25%;
+}
+#first-client img, #secoend-client img, #third-client img{
+    border-radius: 50%;
+    width: 100px;
+}
+#first-client p, #secoend-client p , #third-client p{
+    color:  hsl(212, 27%, 19%);
+    font-family:  'Barlow', sans-serif;
+    margin: 30px 50px;
+}
+
+#first-client h2, #secoend-client h2 , #third-client h2{
+    font-size: 1.2em;
+    font-weight: 900;
+    color:  hsl(212, 27%, 19%);
+    margin-top: 60px;
+}
+
+
+
+.carrier{
+    color:  hsl(210, 4%, 67%) !important;
+    font-size: 0.85em !important;
+    margin-top: -10px !important;
+}
+#showcase{
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row ;
+    margin-top: 150px;
+}
+#firstpic, #secpic, #thirdpic, #forthpic{
+    height: 894px;
+    width: 25%;
+    zoom: 58%;
+}
+#firstpic{
+    background:url(./images/desktop/image-gallery-milkbottles.jpg) no-repeat;
+    
+}
+
+#secpic{
+    background: url(./images/desktop/image-gallery-orange.jpg) no-repeat;
+}
+
+#thirdpic{
+    background: url(./images/desktop/image-gallery-cone.jpg) no-repeat;
+}
+
+#forthpic{
+    background: url(./images/desktop/image-gallery-sugarcubes.jpg) no-repeat;
+}
+
+footer{
+    background-color: hsl(169, 33%, 59%);
+    text-align: center;
+    height: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo{
+    zoom: 150%;
+    fill:hsl(168, 34%, 41%) ;
+    margin-top: 30px;   
+  
+}
+.Info a{
+    color:hsl(168, 34%, 41%) ;
+    font-family: 'Barlow', sans-serif;
+    margin: 40px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.contact svg{
+margin: 10px 10px;
+}
+
+
+/* /mobile desgin */
+
+.contactbtn:hover{
+    background-color: rgb(161, 226, 226);
+    opacity: 0.5;
+    color: white;
+}
+
+#third-para a:hover{
+    box-shadow: 0 14px 0px 0   hsl(7, 99%, 70%);
+
+}
+
+
+#text-part1 a:hover{
+    box-shadow: 0 14px 0px 0  hsl(51, 100%, 49%);
+
+}
+
+.Info a:hover{
+    color: white;
+}
+
+path:hover{
+    fill: white !important;
+}
